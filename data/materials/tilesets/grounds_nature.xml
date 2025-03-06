@@ -118,6 +118,7 @@
 			<brush name="vortex floor3"/>
 			<brush name="vortex floor4"/>
 			<brush name="void"/>
+			<brush name="river"/>
 		</terrain>
 		<raw>
 			<item id="372"/>
@@ -158,6 +159,7 @@
 			<item fromid="21477" toid="21482"/>
 			<item fromid="21484" toid="21499"/>
 			<item fromid="21575" toid="21585"/>
+		
 		</raw>
 	</tileset>
 </materials>

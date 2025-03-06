@@ -25,6 +25,8 @@
 	</brush>
 
 	<brush name="grass" type="ground" lookid="4515" z-order="3200">
+		
+		
 		<item id="4515" chance="2500"/>
 		<item id="4516" chance="10"/>
 		<item id="4517" chance="25"/>
@@ -42,6 +44,8 @@
 		<item id="4529" chance="20"/>
 		<item id="4530" chance="20"/>
 		<item id="7761" chance="2500"/>
+
+
 		
 		<border align="outer" id="2"/>
 		<border align="inner" to="none" id="1"/>
@@ -101,34 +105,26 @@
 
 	<brush name="sea" type="ground" lookid="4597" z-order="7600">
 		<item id="4597" chance="3"/>
-		<item id="4598" chance="1"/>
-		<item id="4599" chance="1"/>
-		<item id="4600" chance="1"/>
-		<item id="4601" chance="1"/>
-		<item id="4602" chance="1"/>
-		<item id="4609" chance="1"/>
-		<item id="4610" chance="1"/>
-		<item id="4611" chance="1"/>
-		<item id="4612" chance="1"/>
+		<item id="4598" chance="3"/>
+		<item id="4599" chance="3"/>
+		<item id="4600" chance="3"/>
+		<item id="4601" chance="3"/>
+		<item id="4602" chance="3"/>
+		<item id="4609" chance="3"/>
+		<item id="4610" chance="3"/>
+		<item id="4611" chance="3"/>
+		<item id="4612" chance="3"/>
 		<item id="4613" chance="1"/>
 		<item id="4614" chance="1"/>
 		<item id="4597" chance="1"/>
 		<item id="4598" chance="1"/>
 		<item id="4599" chance="1"/>
 		
-		
-		<item id="5757" chance="0"/>
-		<item id="5756" chance="0"/>
-		<item id="5755" chance="0"/>
-		<item id="5759" chance="0"/>
-		<item id="5760" chance="0"/>
-		<item id="5758" chance="0"/>
-		<item id="5761" chance="0"/>
-		
 		<border align="outer" id="5"/>
 		<border align="outer" to="none" id="5"/>
 		<border align="inner" to="ice" id="48"/>
 	</brush>
+
 
 	<brush name="walkable sea" type="ground" lookid="4597" z-order="7600">
 		<item id="4809" chance="3"/>
@@ -3727,6 +3723,22 @@
 
 		<border align="outer" id="248"/>
 	</brush>
-	
+		<brush name="river" type="ground" lookid="21302" z-order="7600">
+		<item id="21302" chance="3"/>
+		<item id="21303" chance="3"/>
+		<item id="21304" chance="3"/>
+		<item id="21305" chance="3"/>
+		<item id="21306" chance="3"/>
+		<item id="21307" chance="3"/>
+		<item id="21311" chance="1"/>
+		<item id="21312" chance="1"/>
+		<item id="21313" chance="1"/>
+		<item id="21314" chance="1"/>
+		<item id="21315" chance="1"/>
+		<border align="outer" id="5"/>
+		<border align="outer" to="none" id="5"/>
+		<border align="inner" to="ice" id="48"/>
+	</brush>
+
 	
 </materials>
