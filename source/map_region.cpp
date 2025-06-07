@@ -179,7 +179,7 @@ void QTreeNode::clearVisible(uint32_t u) {
 
 bool QTreeNode::isVisible(uint32_t client, bool underground) {
 	if (underground) {
-		return testFlags(visible >> rme::MapLayers, static_cast<uint64_t>(1) << client);
+		return testFlags(visible >> rme::MapLayers, 1ULL << client);
 	} else {
 		return testFlags(visible, static_cast<uint64_t>(1) << client);
 	}
@@ -211,9 +211,9 @@ void QTreeNode::setRequested(bool underground, bool r) {
 
 void QTreeNode::setVisible(uint32_t client, bool underground, bool value) {
 	if (value) {
-		visible |= (1 << client << (underground ? rme::MapLayers : 0));
+		visible |= (1ULL << client << (underground ? rme::MapLayers : 0));
 	} else {
-		visible &= ~(1 << client << (underground ? rme::MapLayers : 0));
+		visible &= ~(1ULL << client << (underground ? rme::MapLayers : 0));
 	}
 }
 

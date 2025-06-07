@@ -151,7 +151,7 @@ public:
 
 protected:
 	BaseMap &map;
-	uint32_t visible;
+	uint64_t visible;
 
 	bool isLeaf;
 

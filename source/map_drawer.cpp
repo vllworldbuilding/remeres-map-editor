@@ -154,7 +154,7 @@ void MapDrawer::SetupVars() {
 	floor = canvas->GetFloor();
 
 	if (options.show_all_floors) {
-		if (floor < 8) {
+		if (floor < 32) {
 			start_z = rme::MapGroundLayer;
 		} else {
 			start_z = std::min(rme::MapMaxLayer, floor + 2);

@@ -107,7 +107,7 @@ void LiveSocket::receiveNode(NetworkMessage &message, Editor &editor, Action* ac
 		return;
 	}
 
-	for (uint_fast8_t z = 0; z < 16; ++z) {
+for (uint32_t z = 0; z < rme::MapLayers; ++z) {
 		if (testFlags(floorBits, static_cast<uint64_t>(1) << z)) {
 			receiveFloor(message, editor, action, ndx, ndy, z, node, node->getFloor(z));
 		}
